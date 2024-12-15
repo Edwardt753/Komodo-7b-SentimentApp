@@ -5,7 +5,7 @@ import streamlit as st
 from torch.amp import autocast  # Updated import to the new version
 
 model_dir = "Yellow-AI-NLP/komodo-7b-base"
-adapter_dir = "C:/Users/Komodo/Documents/Komodo-7b/training_final_finetuned_2000_v2"
+adapter_dir = "Edwardt753/komodo-7b-sentiment"
 
 id2label = {0: "Negative", 1: "Neutral", 2: "Positive"}
 label2id = {"Negative": 0, "Neutral": 1, "Positive": 2}
